@@ -14,11 +14,11 @@ public class ProblemIX {
         do {
             System.out.println("Introduceti m1");
             m1 = cin.nextInt();
-        } while (m1 > 59);
+        } while (m1 > 60);
         do {
             System.out.println("Introduceti s1");
             s1 = cin.nextInt();
-        } while (s1 > 59);
+        } while (s1 > 60);
 
         do {
             System.out.println("Introduceti h2");
@@ -27,11 +27,28 @@ public class ProblemIX {
         do {
             System.out.println("Introduceti m2");
             m2 = cin.nextInt();
-        } while (m2 > 59);
+        } while (m2 > 60);
         do {
             System.out.println("Introduceti s2");
             s2 = cin.nextInt();
-        } while (s2 > 59);
+        } while (s2 > 60);
+
+        if (s1 >= 60) {
+            s1 -= 60;
+            m1++;
+        }
+        if (m1 >= 60) {
+            m1 -= 60;
+            h1++;
+        }
+        if (s2 >= 60) {
+            s2 -= 60;
+            m2++;
+        }
+        if (m2 >= 60) {
+            m2 -= 60;
+            h2++;
+        }
 
         ss1 = h1 * 3600 + m1 * 60 + s1;
         ss2 = h2 * 3600 + m2 * 60 + s2;
