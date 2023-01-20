@@ -1,6 +1,4 @@
-package oop.exerciseII;
-
-import oop.exerciseI.Student;
+package oop.lessonI.exerciseII;
 
 import java.util.ArrayList;
 import java.util.List;

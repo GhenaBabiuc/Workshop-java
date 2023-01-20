@@ -1,4 +1,4 @@
-package oop.exerciseI;
+package oop.lessonI.exerciseI;
 
 import lombok.*;
 

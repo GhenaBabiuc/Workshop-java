@@ -1,4 +1,4 @@
-package oop.exerciseII;
+package oop.lessonI.exerciseII;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
