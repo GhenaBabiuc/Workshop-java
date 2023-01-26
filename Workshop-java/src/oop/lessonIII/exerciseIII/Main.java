@@ -17,6 +17,6 @@ public class Main {
         holidays.add(holiday2);
         holidays.add(holiday3);
 
-        System.out.println(holiday1.avgDate(holidays));
+        System.out.printf("%.2f%n", holiday1.avgDate(holidays));
     }
 }
