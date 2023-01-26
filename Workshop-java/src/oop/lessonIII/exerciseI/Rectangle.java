@@ -14,12 +14,9 @@ public class Rectangle {
         this.width = width;
     }
 
-    public void setLength(double length) {
+    public Rectangle(double length) {
         this.length = length;
-    }
-
-    public void setWidth(double width) {
-        this.width = width;
+        this.width = length;
     }
 
     public double calculateTheArea() {
